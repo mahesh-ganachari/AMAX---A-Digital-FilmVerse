@@ -11,7 +11,7 @@ npm install --prefix server
 npm run dev
 ```
 
-The client runs at `http://localhost:5173` and the API at `http://localhost:5000`. Copy `server/.env.example` to `server/.env` and `client/.env.example` to `client/.env` when configuring persistence and Google sign-in. Add `http://localhost:5173` as an authorized JavaScript origin in Google Cloud Console. The API intentionally boots without MongoDB so the client can be explored before infrastructure is configured.
+The client runs at `http://localhost:5174` and the API at `http://localhost:5000`. Copy `server/.env.example` to `server/.env` and `client/.env.example` to `client/.env` when configuring persistence and Google sign-in. Add `http://localhost:5174` as an authorized JavaScript origin in Google Cloud Console. The API intentionally boots without MongoDB so the client can be explored before infrastructure is configured.
 
 ## Architecture
 
