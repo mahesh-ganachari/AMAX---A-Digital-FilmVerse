@@ -3,3 +3,15 @@ dist
 .env
 .env.*
 !.env.example
+
+# Keys & Credentials
+Start-Service ssh-agent*
+*.pem
+*.key
+*.pub
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
